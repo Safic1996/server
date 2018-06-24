@@ -9,7 +9,7 @@ app.get('/', function(request, response) {
 })
 app.post('/github', function(request, response){
     console.log(request.body);
-    //response.send(request);
+    response.send(request);
 });    
 
 app.listen(port, (err) => {
