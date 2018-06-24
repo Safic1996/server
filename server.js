@@ -5,11 +5,11 @@ const port = 3000
 
 app.use(bodyParser.json())
 app.get('/', function(request, response) {
-    response.send('hello');
+    response.send('hello world world world');
 })
 app.post('/github', function(request, response){
     console.log(request.body);
-    response.send(request);
+    //response.send(request);
 });    
 
 app.listen(port, (err) => {
