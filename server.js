@@ -14,7 +14,7 @@ app.post('/github', function(request, response){
 
 app.listen(port, (err) => {
 if (err) {
-return console.log('something bad happened', err)
+return console.log('something bad ', err)
 }
 
 console.log(`server is listening on ${port}`)
