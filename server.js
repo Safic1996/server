@@ -5,6 +5,7 @@ const port = 3000
 console.log('3400');
 console.log('true');
 console.log('ksksksksksk');
+console.log('bin')
 
 app.use(bodyParser.json())
 app.get('/', function(request, response) {
