@@ -3,6 +3,7 @@ const app = express()
 const bodyParser = require('body-parser');
 const port = 3000
 console.log('3400');
+console.log('true');
 
 app.use(bodyParser.json())
 app.get('/', function(request, response) {
